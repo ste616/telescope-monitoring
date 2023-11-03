@@ -1,0 +1,15 @@
+monicaServer=monhost-nar
+antennaName=ATCA
+weather.windSpeed=site.environment.weather.WindSpeed,value
+weather.windSpeedError=site.environment.weather.WindSpeed,error
+configuration.tickPhase=caclock.misc.clock.TickPhase,value
+state=ca01.servo.State,ca02.servo.State,ca03.servo.State,ca04.servo.State,ca05.servo.State,value
+stateError=ca01.servo.State,ca02.servo.State,ca03.servo.State,ca04.servo.State,ca05.servo.State,error
+azimuth=ca01.servo.coords.AzSkyPos,ca02.servo.coords.AzSkyPos,ca03.servo.coords.AzSkyPos,ca04.servo.coords.AzSkyPos,ca05.servo.coords.AzSkyPos,value
+elevation=ca01.servo.coords.ElSkyPos,ca02.servo.coords.ElSkyPos,ca03.servo.coords.ElSkyPos,ca04.servo.coords.ElSkyPos,ca05.servo.coords.ElSkyPos,value
+rightAscensionICRF=ca01.servo.coords.J2000_RA,ca02.servo.coords.J2000_RA,ca03.servo.coords.J2000_RA,ca04.servo.coords.J2000_RA,ca05.servo.coords.J2000_RA,value
+declinationICRF=ca01.servo.coords.J2000_Dec,ca02.servo.coords.J2000_Dec,ca03.servo.coords.J2000_Dec,ca04.servo.coords.J2000_Dec,ca05.servo.coords.J2000_Dec,value
+configuration.receiver=ca01.misc.turret.feed,ca02.misc.turret.feed,ca03.misc.turret.feed,ca04.misc.turret.feed,ca05.misc.turret.feed,value
+configuration.frequencies=site.misc.obs.freq1,site.misc.obs.freq2,value
+weather.temperature=site.environment.weather.Temperature,value
+
